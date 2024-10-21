@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+html , body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5 30px;
+}
+.container {
+    background-image:url(./imAges/Rectangle\ 14.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100%;
+    height: 790px;
+    margin: 0 auto ;
+
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    height: 80px;
+    align-items: center;
+}
+
+.navigation a {
+      color: #212121;
+      padding: 25px;
+}
+
+.navigation .links a {
+    margin-left: 20px;
+}
+
+.logo {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner .title {
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.banner .title2 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 40px;
+    color: sienna;
+}
+
+.banner .title3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left .title13 {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    height: 16px;
+}
+.heri {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 3px;
+    top: 10px;
+    left: 10px;
+    background-color:brown
+}
+
+.down {
+ display: flex;
+justify-content: center;
+align-items: center;
+top: 740px;
+align-items: end;
+}
+
+.description {
+    display: flex;
+    width: 440px;
+    height: 120px;
+}
+ 
+.sentence {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.words {
+    padding: 60px 100px;
+    margin-top: 95px;
+    width: 940px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.description .left, {
+    width: 46%;
+}
+.description .right {
+    width: 46%;
+}
+
+.car {
+    display: flex;
+    padding-left: 25px;
+     width: 1000px;
+    object-fit: contain;
+    padding-top: 220px;
+    margin: 0 auto;
+   
+}
+ .shakira {
+    padding-top: 200px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+ }
+
+ .pique {
+    display: flex;
+    width: 620px;
+    text-align:justify;
+    padding-top: 30px;
+    padding-left: 30px;
+
+ }
+
+ .rigt {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 250px;
+    width: 1350px;
+    padding-bottom: 250px;
+    padding-right: 170px;
+    object-fit: contain;
+
+}
+
+.yes {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 800;
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+.yeah {
+    padding-top: 50px;
+    padding-left: 30px ;
+    text-align: justify;
+    width: 500px;
+    height: 250px;
+} 
+
+.etap {
+    display: flex;
+    justify-content: right;
+    padding-right: 170px;
+    padding-left: 30px;
+}
